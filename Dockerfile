@@ -5,7 +5,7 @@ FROM openjdk:8-jdk-alpine
 WORKDIR /app
 
 # Copia el archivo JAR de tu aplicación al contenedor
-COPY target/PersonaBackend-1.0.jar app.jar
+COPY target/CuentaBackend-1.0.jar app.jar
 
 # Expone el puerto en el que la aplicación se ejecutará
 EXPOSE 8080
